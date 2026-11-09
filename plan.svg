@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800" role="img" aria-labelledby="dwg-title dwg-desc" font-family="Clarkson, 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title id="dwg-title">Equilateral Mounting Plate, plan view</title>
+<desc id="dwg-desc">Equilateral triangular steel plate, side 100 mm to virtual sharp corners, three R10 corner fillets, 5 mm thick, with two 8 mm through holes at a 45 mm pitch, 10 mm above the bottom mounting datum edge.</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 6" refX="10" refY="3" markerWidth="10" markerHeight="6" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 0L10 3L0 6Z" fill="#0e0e0e"/></marker>
+</defs>
+
+<!-- Sheet -->
+<rect width="1000" height="800" fill="#ffffff"/>
+<rect x="10" y="10" width="980" height="780" fill="none" stroke="#0e0e0e" stroke-width="2"/>
+<text x="30" y="42" font-size="12" font-weight="600" letter-spacing="0.6" fill="#0e0e0e">PLAN VIEW</text>
+
+<!-- Virtual sharp corners (phantom lines) -->
+<g fill="none" stroke="#666666" stroke-width="1" stroke-dasharray="12,3,2,3,2,3">
+<path d="M181.962 495 L130 585"/>
+<path d="M678.038 495 L730 585"/>
+<path d="M378.038 155.385 L430 65.385 L481.962 155.385"/>
+</g>
+
+<!-- Part outline: visible, thick solid -->
+<path d="M233.923 585 L626.077 585 A60 60 0 0 0 678.038 495 L481.962 155.385 A60 60 0 0 0 378.038 155.385 L181.962 495 A60 60 0 0 0 233.923 585 Z" fill="#f2f2f2" stroke="#0e0e0e" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="295" cy="525" r="24" fill="#ffffff" stroke="#0e0e0e" stroke-width="2"/>
+<circle cx="565" cy="525" r="24" fill="#ffffff" stroke="#0e0e0e" stroke-width="2"/>
+
+<!-- Centerlines: thin dash-dot -->
+<g fill="none" stroke="#666666" stroke-width="1" stroke-dasharray="8,3,2,3">
+<path d="M430 112 V605"/>
+<path d="M295 423 V557"/>
+<path d="M565 423 V557"/>
+<path d="M258 525 H329"/>
+<path d="M531 525 H599"/>
+</g>
+<!-- Symmetry symbols at the axis ends -->
+<path d="M423 106 H437 M423 110 H437 M423 607 H437 M423 611 H437" fill="none" stroke="#0e0e0e" stroke-width="1"/>
+
+<!-- Datum A: mounting edge -->
+<path d="M543 585 L555 585 L549 595.4 Z" fill="#0e0e0e"/>
+<path d="M549 595.4 V609" stroke="#0e0e0e" stroke-width="1"/>
+<rect x="538" y="609" width="22" height="22" fill="#ffffff" stroke="#0e0e0e" stroke-width="1"/>
+<text x="549" y="625" font-size="14" font-weight="600" text-anchor="middle" fill="#0e0e0e">A</text>
+<text x="528" y="624" font-size="11" font-weight="600" letter-spacing="0.4" text-anchor="end" fill="#0e0e0e">MOUNTING DATUM / ACCESSORY MOUNTING EDGE</text>
+
+<!-- Dimensions: thin lines with arrow terminators -->
+<g fill="none" stroke="#0e0e0e" stroke-width="1">
+<!-- 100 nominal side (to virtual sharp corners) -->
+<path d="M130 589 V672 M730 589 V672"/>
+<line x1="130" y1="665" x2="730" y2="665" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<!-- overall height -->
+<path d="M424 125.385 H74 M228 585 H74"/>
+<line x1="80" y1="125.385" x2="80" y2="585" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<!-- 10 offset -->
+<line x1="258" y1="525" x2="258" y2="585" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<!-- 45 pitch -->
+<line x1="295" y1="429" x2="565" y2="429" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<!-- leaders -->
+<path d="M815 552.176 H727.499 L684.033 540.529" marker-end="url(#arrow)"/>
+<path d="M800 404.029 H685.971 L581.971 508.029" marker-end="url(#arrow)"/>
+</g>
+
+<!-- Dimension text -->
+<g fill="#0e0e0e" font-size="15" font-weight="500">
+<text x="430" y="657" text-anchor="middle">100</text>
+<text transform="translate(72 355.192) rotate(-90)" text-anchor="middle">(76.6)</text>
+<text x="252" y="560" text-anchor="end">10</text>
+<text x="430" y="421" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke">45</text>
+<text x="734.499" y="546.176" font-size="14">3x R10</text>
+<text x="691.971" y="398.029" font-size="14">2x Ø8 THRU</text>
+</g>
+<text x="430" y="683" font-size="10" text-anchor="middle" fill="#666666">NOMINAL SIDE L, TO VIRTUAL SHARP CORNERS</text>
+
+<!-- General notes -->
+<g font-size="11" fill="#0e0e0e">
+<text x="30" y="704" font-size="10" font-weight="600" letter-spacing="0.5" fill="#666666">NOTES</text>
+<text x="30" y="720">1. MATERIAL: STEEL PLATE, THICKNESS t = 5 mm.</text>
+<text x="30" y="735">2. ALL DIMENSIONS IN mm. GENERAL TOLERANCE ±0.2 mm.</text>
+<text x="30" y="750">3. ALL 3 VERTICES FILLETED, R10.</text>
+<text x="30" y="765">4. 2 THROUGH HOLES Ø8, SYMMETRIC ABOUT THE VERTICAL CENTERLINE.</text>
+<text x="30" y="780">5. THIN CHAIN LINES MARK THE VIRTUAL SHARP CORNERS (L = 100).</text>
+</g>
+
+<!-- Title block -->
+<rect x="630" y="690" width="360" height="100" fill="#ffffff" stroke="#0e0e0e" stroke-width="2"/>
+<path d="M630 724 H990 M630 757 H990 M850 724 V790" fill="none" stroke="#0e0e0e" stroke-width="1"/>
+<g font-size="9" font-weight="600" letter-spacing="0.5" fill="#666666">
+<text x="638" y="702">PART NAME</text>
+<text x="638" y="736">MATERIAL</text>
+<text x="858" y="736">UNITS</text>
+<text x="638" y="769">GENERAL TOLERANCE</text>
+<text x="858" y="769">SHEET</text>
+</g>
+<g font-size="13" font-weight="500" fill="#0e0e0e">
+<text x="638" y="719" font-size="15" font-weight="600">Equilateral Mounting Plate</text>
+<text x="638" y="751">Steel Plate (t = 5 mm)</text>
+<text x="858" y="751">mm</text>
+<text x="638" y="784">±0.2 mm</text>
+<text x="858" y="784">1 of 1</text>
+</g>
+</svg>
